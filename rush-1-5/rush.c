@@ -9,12 +9,12 @@ static void fin(int x, int y)
 {
     int bot = x;
 
-    my_putchar('C');
+    my_putchar('A');
     if (x > 1)
         for (bot; bot > 2; bot = bot - 1)
             my_putchar('B');
         if (x > 1)
-        my_putchar('A');
+        my_putchar('C');
         if (y > 1)
         my_putchar('\n');
 }
@@ -34,10 +34,10 @@ static void deb(int x, int y)
     int top = x;
 
     if (x > 1 || y > 1) {
-        my_putchar('C');
+        my_putchar('A');
         for (top; top != 2; top = top - 1)
             my_putchar('B');
-        my_putchar('A');
+        my_putchar('C');
         my_putchar('\n');
     }
 }
